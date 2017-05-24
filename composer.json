@@ -1,0 +1,14 @@
+{
+    "name": "root/flights",
+    "authors": [
+        {
+            "name": "lukaszmaterla",
+            "email": "materla.lukasz@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.6",
+        "kwn/number-to-words": "^1.2",
+        "mpdf/mpdf": "^6.1"
+    }
+}

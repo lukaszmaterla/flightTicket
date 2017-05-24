@@ -1,0 +1,45 @@
+body {
+    background-color: #F2F0F0;
+    color : #F2F0F0;   
+}
+table ,th{
+    border: 8px solid #FFAC00;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    line-height: 15px; 
+    font-size: 40px;
+}
+td{
+    border: 2px solid #FFAC00;
+    padding: 10px;
+    width: 50%;
+}
+table{
+    max-width: 75%;
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B3E59;
+    font-size: 20px;
+    border: 15px solid #FFAC00;
+    margin-top: 20px;
+}
+table th{
+    color: #FFAC00;
+    
+}
+table td:first-child{
+    padding: 30px;
+    line-height: 15px; 
+    font-size: 40px;
+    color: #FFAC00;
+}
+.head{
+    padding: 50px;
+    line-height: 15px; 
+    font-size: 40px;
+    color: #FFAC00;
+}
