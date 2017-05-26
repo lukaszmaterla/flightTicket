@@ -1,8 +1,8 @@
 <?php
     require_once 'vendor/autoload.php';
-    use NumberToWords\NumberToWords; 
-    include('includes/airports.php');
+    use NumberToWords\NumberToWords;
     $airports = null;
+    include('includes/airports.php');
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($_POST['airportDeparture'] !== $_POST['airportArrival']){
             if (!empty($_POST['dateTime'])){
@@ -24,7 +24,6 @@
                                 $codePort1 = $p['code'];//wazne
                             }   
                         }
-                        // var_dump($zone1); sprawdznie poprawnośći wyciągnietej strefy czasowej
                         //wykonuje to samo dla drugiego lotniska
                         foreach($airports as $k =>$p){
                             if ($p['name'] === $port2){
